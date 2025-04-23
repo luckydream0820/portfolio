@@ -130,7 +130,7 @@ export const projects: Project[] = [
     title: 'Infographic & Presentation Design',
     category: 'Print',
     description: 'Editorial design for a lifestyle magazine featuring custom typography, photography direction, and elegant layouts.',
-    thumbnail:'/asset/Presentation/011.jpg', 
+    thumbnail:'/asset/Presentation/011.webp', 
     images: [
       '/asset/Presentation/01.jpg',
       '/asset/Presentation/02.jpg',
