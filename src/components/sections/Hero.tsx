@@ -23,12 +23,13 @@ const Hero: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
             <div className="animate-fadeIn space-y-6">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 dark:text-white transition-colors duration-300">
-                <span className="block">Creative</span>
-                <span className="text-blue-600 dark:text-blue-400 transition-colors duration-300">Portfolio</span>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 dark:text-white transition-colors duration-300 ">
+                <span className="block">My Craft</span>
+                <span className="block pt-3"> My Passion</span>
+                <span className="block text-blue-600 dark:text-blue-400 transition-colors duration-300 pt-3"> Your Vision</span>
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 max-w-lg transition-colors duration-300">
-                Showcasing thoughtful design solutions and creative projects that connect with audiences and deliver results.
+              Bringing your ideas to life with passion and care, creating work that truly stands out.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button 
@@ -41,7 +42,7 @@ const Hero: React.FC = () => {
                     }
                   }}
                 >
-                  View Projects
+                   My Works
                 </Button>
                 <Button 
                   variant="outline" 
@@ -53,12 +54,12 @@ const Hero: React.FC = () => {
                     }
                   }}
                 >
-                  Contact Me
+                  Hey, Say!
                 </Button>
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 relative">
+          {/* <div className="md:w-1/2 relative">
             <div className="relative rounded-lg overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
               <img 
                 src="https://images.pexels.com/photos/6423446/pexels-photo-6423446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
@@ -67,7 +68,7 @@ const Hero: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20"></div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">

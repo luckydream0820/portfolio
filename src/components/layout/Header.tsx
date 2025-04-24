@@ -43,7 +43,7 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="/" className="text-2xl font-bold text-blue-600 dark:text-blue-400 transition-colors duration-300">
-          Portfolio
+          Lucky Dream
         </a>
 
         {/* Desktop Menu */}

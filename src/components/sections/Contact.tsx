@@ -59,8 +59,8 @@ const Contact: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          <div 
+        <div className="grid grid-cols-24 md:grid-cols-24 gap-24">
+          {/* <div 
             ref={formRef as React.RefObject<HTMLDivElement>}
             className={`transition-all duration-700 ${
               formVisible 
@@ -150,7 +150,7 @@ const Contact: React.FC = () => {
                 )}
               </Button>
             </form>
-          </div>
+          </div> */}
           
           <div 
             ref={infoRef as React.RefObject<HTMLDivElement>}
@@ -165,8 +165,8 @@ const Contact: React.FC = () => {
                 Contact Information
               </h3>
               
-              <div className="space-y-6 mb-8">
-                <div className="flex items-start">
+              <div className="flex mb-8" style={{justifyContent: 'space-around'}}>
+                <div className="flex">
                   <div className="mr-4 p-2 bg-blue-100 dark:bg-blue-900/30 rounded-full text-blue-600 dark:text-blue-400 transition-colors duration-300">
                     <Mail size={20} />
                   </div>
@@ -175,12 +175,12 @@ const Contact: React.FC = () => {
                       Email
                     </h4>
                     <p className="text-gray-900 dark:text-white transition-colors duration-300">
-                      creative@portfolio.com
+                     luckydream 0821@gmail.com
                     </p>
                   </div>
                 </div>
                 
-                <div className="flex items-start">
+                <div className="flex">
                   <div className="mr-4 p-2 bg-blue-100 dark:bg-blue-900/30 rounded-full text-blue-600 dark:text-blue-400 transition-colors duration-300">
                     <Phone size={20} />
                   </div>
@@ -194,7 +194,7 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
                 
-                <div className="flex items-start">
+                <div className="flex">
                   <div className="mr-4 p-2 bg-blue-100 dark:bg-blue-900/30 rounded-full text-blue-600 dark:text-blue-400 transition-colors duration-300">
                     <MapPin size={20} />
                   </div>
@@ -203,13 +203,13 @@ const Contact: React.FC = () => {
                       Location
                     </h4>
                     <p className="text-gray-900 dark:text-white transition-colors duration-300">
-                      San Francisco, California
+                      New York, New York
                     </p>
                   </div>
                 </div>
               </div>
               
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
+              {/* <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
                 Connect With Me
               </h3>
               
@@ -226,7 +226,7 @@ const Contact: React.FC = () => {
                     <Icon iconName={social.icon} />
                   </a>
                 ))}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

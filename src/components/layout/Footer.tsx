@@ -59,13 +59,13 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4">Contact</h4>
             <ul className="space-y-2">
               <li className="text-gray-600 dark:text-gray-400">
-                creative@portfolio.com
+                Luckydream0821@gmail.com
               </li>
               <li className="text-gray-600 dark:text-gray-400">
                 +1 (555) 123-4567
               </li>
               <li className="text-gray-600 dark:text-gray-400">
-                San Francisco, CA
+              New York, New York
               </li>
             </ul>
           </div>

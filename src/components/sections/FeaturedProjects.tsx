@@ -34,9 +34,9 @@ const FeaturedProjects: React.FC<FeaturedProjectsProps> = ({ projects }) => {
           }`}
         >
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300">
-            Featured Projects
+           My Works
           </h2>
-          <div className="w-20 h-1 bg-blue-600 dark:bg-blue-400 mx-auto mb-6 transition-colors duration-300"></div>
+          <div className="w-20 h-0.5 bg-blue-600 dark:bg-blue-400 mx-auto mb-6 transition-colors duration-300"></div>
           <p className="text-lg text-gray-600 dark:text-gray-400 transition-colors duration-300">
             A selection of my recent work showcasing creative solutions across branding, web design, and digital marketing.
           </p>

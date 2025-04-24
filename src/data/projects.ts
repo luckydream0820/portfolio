@@ -6,9 +6,20 @@ export const projects: Project[] = [
     title: 'Brand Identity Design',
     category: 'Branding',
     description: 'Complete brand identity design for a modern tech startup, including logo, color palette, typography, and brand guidelines.',
-    thumbnail: '/asset/Hompage/6.png',
+    thumbnail: '/asset/LOGO/3.png',
     images: [
-      
+      '/asset/LOGO/1.png',
+      '/asset/LOGO/2.jpg',
+      '/asset/LOGO/3.png',
+      '/asset/LOGO/4.png',
+      '/asset/LOGO/5.png',
+      '/asset/LOGO/6.png',
+      '/asset/LOGO/7.png',
+      '/asset/LOGO/8.png',
+      '/asset/LOGO/9.webp',
+      '/asset/LOGO/10.webp',
+      '/asset/LOGO/11.webp',
+      '/asset/LOGO/12.webp',
       
     ],
     tags: ['Branding', 'Logo Design', 'Typography', 'Guidelines'],
@@ -21,7 +32,7 @@ export const projects: Project[] = [
     title: 'E-commerce Website Redesign',
     category: 'Web Design',
     description: 'Complete redesign of an e-commerce platform to improve user experience, conversion rates, and mobile responsiveness.',
-    thumbnail: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    thumbnail: '/asset/Hompage/blog.webp ',
     images: [
       '/asset/Hompage/1.png',
       '/asset/Hompage/2.png',
@@ -74,7 +85,7 @@ export const projects: Project[] = [
 
     tags: ['UI/UX', 'Mobile App', 'Interface Design', 'Wireframing'],
     featured: true,
-    date: '2022-04-22',
+    date: '2024-04-22',
     client: 'FitTrack'
   },
   {
@@ -102,8 +113,7 @@ export const projects: Project[] = [
       '/asset/Architecture/16.webp',
       '/asset/Architecture/17.webp',
       '/asset/Architecture/18.webp',
-      '/asset/Architecture/19.jpg',
-      '/asset/Architecture/20.jpg',
+    
       
     ],
     tags: ['Building Architecture', 'Exterior Design', 'Interior Design', 'CEO'],
