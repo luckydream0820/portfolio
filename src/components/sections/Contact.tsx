@@ -175,7 +175,7 @@ const Contact: React.FC = () => {
                       Email
                     </h4>
                     <p className="text-gray-900 dark:text-white transition-colors duration-300">
-                     luckydream 0821@gmail.com
+                     Luckydream 0821@gmail.com
                     </p>
                   </div>
                 </div>

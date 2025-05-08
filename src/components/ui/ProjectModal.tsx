@@ -160,7 +160,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
       </div>
       {fullscreenImage && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-90 z-50 overflow-y-auto flex justify-center items-start p-4 fullscreen-container"
+          className="fixed inset-0 bg-black bg-opacity-90 z-50 overflow-y-auto flex justify-center items-center p-4 fullscreen-container"
           onClick={() => setFullscreenImage(null)}
         >
           <div className="relative max-w-screen-lg w-full">

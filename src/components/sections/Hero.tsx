@@ -11,7 +11,9 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section className="min-h-screen flex items-center relative bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300 overflow-hidden">
+    <section className="min-h-screen flex items-center relative bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 transition-colors duration-300 overflow-hidden"
+    style={{backgroundImage:''}}
+    >
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-30 dark:opacity-10 pointer-events-none">
         <div className="absolute top-10 left-10 w-40 h-40 rounded-full bg-blue-300 dark:bg-blue-600 blur-3xl"></div>
@@ -22,17 +24,16 @@ const Hero: React.FC = () => {
       <div className="container mx-auto px-6 py-12 z-10">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
-            <div className="animate-fadeIn space-y-6">
+            <div className="animate-fadeIn space-y-12">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 dark:text-white transition-colors duration-300 ">
-                <span className="block">My Craft</span>
-                <span className="block pt-3"> My Passion</span>
-                <span className="block text-blue-600 dark:text-blue-400 transition-colors duration-300 pt-3"> Your Vision</span>
+                <span className="block">Radek S.</span>
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 max-w-lg transition-colors duration-300">
               Bringing your ideas to life with passion and care, creating work that truly stands out.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button 
+                  className='bg-orange-500 dark:bg-orange-500'
                   variant="primary" 
                   size="lg"
                   onClick={() => {
@@ -47,6 +48,7 @@ const Hero: React.FC = () => {
                 <Button 
                   variant="outline" 
                   size="lg"
+                  className='border-orange-500 dark:border-white dark:text-white'
                   onClick={() => {
                     const element = document.getElementById('contact');
                     if (element) {
@@ -59,16 +61,16 @@ const Hero: React.FC = () => {
               </div>
             </div>
           </div>
-          {/* <div className="md:w-1/2 relative">
+          <div className="md:w-1/2 relative flex justify-center">
             <div className="relative rounded-lg overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
               <img 
                 src="https://images.pexels.com/photos/6423446/pexels-photo-6423446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
                 alt="Creative Portfolio" 
-                className="w-full h-auto"
+                className="w-[250px] h-[300px]"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20"></div>
             </div>
-          </div> */}
+          </div>
         </div>
 
         <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
